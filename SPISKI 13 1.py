@@ -1,0 +1,8 @@
+print("Введите строку: ")
+str = input()
+print("Введите слово, которое хотите заменить: ")
+poisk = input()
+print("Введите слово, на которое хотите заменить: ")
+zamena = input()
+print("Полученная строка: ")
+print(str.replace(poisk, zamena))
